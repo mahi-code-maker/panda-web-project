@@ -197,6 +197,7 @@
   /* padding-left: 500px;
   padding-top: 100px; */
   min-height: 30vh; 
+  
 }
 
 .formContent h5{
@@ -237,4 +238,87 @@ form{
 
 #formContainer{
   padding: 100px 0;
+}
+
+@media  screen and  (max-width: 450px) {
+  .banContainer{
+    line-height: 13px;
+
+    padding: 0 60px;}
+    .banContent p{
+      font-size: 11px;
+      line-height: 15px; 
+    }
+    .banContent h1{
+      font-size: 27px;
+    }
+    
+    .banContainer{
+      flex-direction: column-reverse;
+      padding: 20px;
+      gap: 5px;
+      text-align: center;
+    }
+
+  #formContainer{
+    padding-top: 87px;
+    
+  }
+
+    .formContent input {
+     padding: 25px 35px;
+    }
+
+    .formContent h5 {
+      font-size: 22px;
+      line-height: 10px;
+    }
+    .formContent p {
+      font-size: 13px;
+    }
+    #form{
+      height: 25vh;
+      border-radius: 25px;
+      line-height: 40px;
+    }
+
+    .banImage img{
+      width: 250px;
+      height: 200px;
+    }
+
+   .b1{
+    padding: 0 30px;
+   }
+
+   .b2{
+    padding: 0 37px;
+   }
+   
+   .b3{
+    padding: 0 8px;
+   }
+
+   .sb{
+    padding: 20px 25px;
+   }
+
+   .sb1{
+    padding: 55px 5px;
+   }
+
+   .sb2{
+    padding: 45px 24.5px;
+   }
+
+  .sb3{
+    padding: 45px 25px;
+  }
+  .menIm2{
+    padding-top: 17px;
+  }
+
+  
+  }
+
 }
